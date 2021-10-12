@@ -1,4 +1,660 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6163C148
+P 2700 1650
+F 0 "MX1" H 2733 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2075 1625 60  0001 C CNN
+F 3 "" H 2075 1625 60  0001 C CNN
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 6163D509
+P 2550 1900
+F 0 "D1" V 2596 1830 50  0000 R CNN
+F 1 "D_Small" V 2505 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2550 1900 50  0001 C CNN
+F 3 "~" V 2550 1900 50  0001 C CNN
+	1    2550 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1800 2650 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 6169AC32
+P 3200 1650
+F 0 "MX5" H 3233 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 3233 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2575 1625 60  0001 C CNN
+F 3 "" H 2575 1625 60  0001 C CNN
+	1    3200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 6169AC38
+P 3050 1900
+F 0 "D5" V 3096 1830 50  0000 R CNN
+F 1 "D_Small" V 3005 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3050 1900 50  0001 C CNN
+F 3 "~" V 3050 1900 50  0001 C CNN
+	1    3050 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1800 3150 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 6169C5BA
+P 3700 1650
+F 0 "MX9" H 3733 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 3733 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3075 1625 60  0001 C CNN
+F 3 "" H 3075 1625 60  0001 C CNN
+	1    3700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 6169C5C0
+P 3550 1900
+F 0 "D9" V 3596 1830 50  0000 R CNN
+F 1 "D_Small" V 3505 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 1900 50  0001 C CNN
+F 3 "~" V 3550 1900 50  0001 C CNN
+	1    3550 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 1800 3650 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 6169C5C7
+P 4200 1650
+F 0 "MX13" H 4233 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 4233 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3575 1625 60  0001 C CNN
+F 3 "" H 3575 1625 60  0001 C CNN
+	1    4200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 6169C5CD
+P 4050 1900
+F 0 "D13" V 4096 1830 50  0000 R CNN
+F 1 "D_Small" V 4005 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4050 1900 50  0001 C CNN
+F 3 "~" V 4050 1900 50  0001 C CNN
+	1    4050 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 1800 4150 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 6169D9A0
+P 4700 1650
+F 0 "MX16" H 4733 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 4733 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 4075 1625 60  0001 C CNN
+F 3 "" H 4075 1625 60  0001 C CNN
+	1    4700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 6169D9A6
+P 4550 1900
+F 0 "D16" V 4596 1830 50  0000 R CNN
+F 1 "D_Small" V 4505 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4550 1900 50  0001 C CNN
+F 3 "~" V 4550 1900 50  0001 C CNN
+	1    4550 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1800 4650 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 6169D9AD
+P 5200 1650
+F 0 "MX19" H 5233 1873 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 1799 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 4575 1625 60  0001 C CNN
+F 3 "" H 4575 1625 60  0001 C CNN
+	1    5200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 6169D9B3
+P 5050 1900
+F 0 "D19" V 5096 1830 50  0000 R CNN
+F 1 "D_Small" V 5005 1830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5050 1900 50  0001 C CNN
+F 3 "~" V 5050 1900 50  0001 C CNN
+	1    5050 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 1800 5150 1800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 616AA81D
+P 2700 2450
+F 0 "MX2" H 2733 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2075 2425 60  0001 C CNN
+F 3 "" H 2075 2425 60  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 616AA823
+P 2550 2700
+F 0 "D2" V 2596 2630 50  0000 R CNN
+F 1 "D_Small" V 2505 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2550 2700 50  0001 C CNN
+F 3 "~" V 2550 2700 50  0001 C CNN
+	1    2550 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2600 2650 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 616AA82A
+P 3200 2450
+F 0 "MX6" H 3233 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 3233 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2575 2425 60  0001 C CNN
+F 3 "" H 2575 2425 60  0001 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 616AA830
+P 3050 2700
+F 0 "D6" V 3096 2630 50  0000 R CNN
+F 1 "D_Small" V 3005 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3050 2700 50  0001 C CNN
+F 3 "~" V 3050 2700 50  0001 C CNN
+	1    3050 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 2600 3150 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 616AA837
+P 3700 2450
+F 0 "MX10" H 3733 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 3733 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3075 2425 60  0001 C CNN
+F 3 "" H 3075 2425 60  0001 C CNN
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 616AA83D
+P 3550 2700
+F 0 "D10" V 3596 2630 50  0000 R CNN
+F 1 "D_Small" V 3505 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 2700 50  0001 C CNN
+F 3 "~" V 3550 2700 50  0001 C CNN
+	1    3550 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2600 3650 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 616AA844
+P 4200 2450
+F 0 "MX14" H 4233 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 4233 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3575 2425 60  0001 C CNN
+F 3 "" H 3575 2425 60  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 616AA84A
+P 4050 2700
+F 0 "D14" V 4096 2630 50  0000 R CNN
+F 1 "D_Small" V 4005 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4050 2700 50  0001 C CNN
+F 3 "~" V 4050 2700 50  0001 C CNN
+	1    4050 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2600 4150 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 616AA851
+P 4700 2450
+F 0 "MX17" H 4733 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 4733 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 4075 2425 60  0001 C CNN
+F 3 "" H 4075 2425 60  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 616AA857
+P 4550 2700
+F 0 "D17" V 4596 2630 50  0000 R CNN
+F 1 "D_Small" V 4505 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4550 2700 50  0001 C CNN
+F 3 "~" V 4550 2700 50  0001 C CNN
+	1    4550 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2600 4650 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 616AA85E
+P 5200 2450
+F 0 "MX20" H 5233 2673 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 2599 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1.5U" H 4575 2425 60  0001 C CNN
+F 3 "" H 4575 2425 60  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 616AA864
+P 5050 2700
+F 0 "D20" V 5096 2630 50  0000 R CNN
+F 1 "D_Small" V 5005 2630 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5050 2700 50  0001 C CNN
+F 3 "~" V 5050 2700 50  0001 C CNN
+	1    5050 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2600 5150 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 616B32C6
+P 2700 3300
+F 0 "MX3" H 2733 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2075 3275 60  0001 C CNN
+F 3 "" H 2075 3275 60  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 616B32CC
+P 2550 3550
+F 0 "D3" V 2596 3480 50  0000 R CNN
+F 1 "D_Small" V 2505 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2550 3550 50  0001 C CNN
+F 3 "~" V 2550 3550 50  0001 C CNN
+	1    2550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3450 2650 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 616B32D3
+P 3200 3300
+F 0 "MX7" H 3233 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 3233 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 2575 3275 60  0001 C CNN
+F 3 "" H 2575 3275 60  0001 C CNN
+	1    3200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 616B32D9
+P 3050 3550
+F 0 "D7" V 3096 3480 50  0000 R CNN
+F 1 "D_Small" V 3005 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3050 3550 50  0001 C CNN
+F 3 "~" V 3050 3550 50  0001 C CNN
+	1    3050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 3450 3150 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 616B32E0
+P 3700 3300
+F 0 "MX11" H 3733 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 3733 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3075 3275 60  0001 C CNN
+F 3 "" H 3075 3275 60  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 616B32E6
+P 3550 3550
+F 0 "D11" V 3596 3480 50  0000 R CNN
+F 1 "D_Small" V 3505 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 3550 50  0001 C CNN
+F 3 "~" V 3550 3550 50  0001 C CNN
+	1    3550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3450 3650 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 616B32ED
+P 4200 3300
+F 0 "MX15" H 4233 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 4233 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 3575 3275 60  0001 C CNN
+F 3 "" H 3575 3275 60  0001 C CNN
+	1    4200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 616B32F3
+P 4050 3550
+F 0 "D15" V 4096 3480 50  0000 R CNN
+F 1 "D_Small" V 4005 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4050 3550 50  0001 C CNN
+F 3 "~" V 4050 3550 50  0001 C CNN
+	1    4050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3450 4150 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 616B32FA
+P 4700 3300
+F 0 "MX18" H 4733 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 4733 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 4075 3275 60  0001 C CNN
+F 3 "" H 4075 3275 60  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 616B3300
+P 4550 3550
+F 0 "D18" V 4596 3480 50  0000 R CNN
+F 1 "D_Small" V 4505 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4550 3550 50  0001 C CNN
+F 3 "~" V 4550 3550 50  0001 C CNN
+	1    4550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3450 4650 3450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 616B3307
+P 5200 3300
+F 0 "MX21" H 5233 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 3449 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1U" H 4575 3275 60  0001 C CNN
+F 3 "" H 4575 3275 60  0001 C CNN
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 616B330D
+P 5050 3550
+F 0 "D21" V 5096 3480 50  0000 R CNN
+F 1 "D_Small" V 5005 3480 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5050 3550 50  0001 C CNN
+F 3 "~" V 5050 3550 50  0001 C CNN
+	1    5050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3450 5150 3450
+Wire Wire Line
+	5050 2000 4550 2000
+Connection ~ 2550 2000
+Wire Wire Line
+	2550 2000 2250 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 2550 2000
+Connection ~ 3550 2000
+Wire Wire Line
+	3550 2000 3050 2000
+Connection ~ 4050 2000
+Wire Wire Line
+	4050 2000 3550 2000
+Connection ~ 4550 2000
+Wire Wire Line
+	4550 2000 4050 2000
+Wire Wire Line
+	5050 2800 4550 2800
+Connection ~ 3050 2800
+Wire Wire Line
+	3050 2800 2550 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	3550 2800 3050 2800
+Connection ~ 4050 2800
+Wire Wire Line
+	4050 2800 3550 2800
+Connection ~ 4550 2800
+Wire Wire Line
+	4550 2800 4050 2800
+Wire Wire Line
+	5050 3650 4550 3650
+Connection ~ 2550 3650
+Wire Wire Line
+	2550 3650 2250 3650
+Connection ~ 3050 3650
+Wire Wire Line
+	3050 3650 2550 3650
+Connection ~ 3550 3650
+Wire Wire Line
+	3550 3650 3050 3650
+Connection ~ 4050 3650
+Wire Wire Line
+	4050 3650 3550 3650
+Connection ~ 4550 3650
+Wire Wire Line
+	4550 3650 4050 3650
+Wire Wire Line
+	5350 1600 5350 2400
+Connection ~ 5350 2400
+Wire Wire Line
+	5350 2400 5350 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	4850 1600 4850 2400
+Connection ~ 4850 2400
+Wire Wire Line
+	4850 2400 4850 3250
+Connection ~ 4850 3250
+Wire Wire Line
+	4350 1600 4350 2400
+Connection ~ 4350 2400
+Wire Wire Line
+	4350 2400 4350 3250
+Connection ~ 4350 3250
+Wire Wire Line
+	3550 4450 3050 4450
+Wire Wire Line
+	3550 4250 3650 4250
+$Comp
+L Device:D_Small D12
+U 1 1 616C9FA5
+P 3550 4350
+F 0 "D12" V 3596 4280 50  0000 R CNN
+F 1 "D_Small" V 3505 4280 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 4350 50  0001 C CNN
+F 3 "~" V 3550 4350 50  0001 C CNN
+	1    3550 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 616C9F9F
+P 3700 4100
+F 0 "MX12" H 3733 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 3733 4249 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1.5U" H 3075 4075 60  0001 C CNN
+F 3 "" H 3075 4075 60  0001 C CNN
+	1    3700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4250 3150 4250
+$Comp
+L Device:D_Small D8
+U 1 1 616C9F98
+P 3050 4350
+F 0 "D8" V 3096 4280 50  0000 R CNN
+F 1 "D_Small" V 3005 4280 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3050 4350 50  0001 C CNN
+F 3 "~" V 3050 4350 50  0001 C CNN
+	1    3050 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 616C9F92
+P 3200 4100
+F 0 "MX8" H 3233 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 3233 4249 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1.5U" H 2575 4075 60  0001 C CNN
+F 3 "" H 2575 4075 60  0001 C CNN
+	1    3200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4250 2650 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 616C9F85
+P 2700 4100
+F 0 "MX4" H 2733 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 2733 4249 20  0000 C CNN
+F 2 "Kailh_Choc:KailhChoc-1.75U" H 2075 4075 60  0001 C CNN
+F 3 "" H 2075 4075 60  0001 C CNN
+	1    2700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1600 2850 2400
+Connection ~ 2850 2400
+Wire Wire Line
+	2850 2400 2850 3250
+Connection ~ 2850 3250
+Wire Wire Line
+	2850 3250 2850 4050
+Connection ~ 2850 4050
+Wire Wire Line
+	3350 1600 3350 2400
+Connection ~ 3350 2400
+Wire Wire Line
+	3350 2400 3350 3250
+Connection ~ 3350 3250
+Wire Wire Line
+	3350 3250 3350 4050
+Connection ~ 3350 4050
+Wire Wire Line
+	3850 1600 3850 2400
+Connection ~ 3850 2400
+Wire Wire Line
+	3850 2400 3850 3250
+Connection ~ 3850 3250
+Wire Wire Line
+	3850 3250 3850 4050
+Connection ~ 3850 4050
+Text GLabel 2250 2000 0    50   Input ~ 0
+ROW0
+Text GLabel 2250 3650 0    50   Input ~ 0
+ROW2
+Connection ~ 2550 2800
+Wire Wire Line
+	2550 2800 2250 2800
+Connection ~ 3050 4450
+$Comp
+L Device:D_Small D4
+U 1 1 616C9F8B
+P 2550 4350
+F 0 "D4" V 2596 4280 50  0000 R CNN
+F 1 "D_Small" V 2505 4280 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2550 4350 50  0001 C CNN
+F 3 "~" V 2550 4350 50  0001 C CNN
+	1    2550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 4450 2550 4450
+Text GLabel 2250 2800 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	2650 4400 2550 4400
+Wire Wire Line
+	2550 4400 2550 4450
+Connection ~ 2550 4450
+Wire Wire Line
+	2250 4450 2550 4450
+Text GLabel 2250 4450 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	2850 4050 2850 4700
+Wire Wire Line
+	3350 4050 3350 4700
+Wire Wire Line
+	3850 4050 3850 4700
+Wire Wire Line
+	4350 3250 4350 4700
+Wire Wire Line
+	4850 3250 4850 4700
+Wire Wire Line
+	5350 3250 5350 4700
+Text GLabel 2850 4700 3    50   Input ~ 0
+COL0
+Text GLabel 3350 4700 3    50   Input ~ 0
+COL1
+Text GLabel 3850 4700 3    50   Input ~ 0
+COL2
+Text GLabel 4350 4700 3    50   Input ~ 0
+COL3
+Text GLabel 4850 4700 3    50   Input ~ 0
+COL4
+Text GLabel 5350 4700 3    50   Input ~ 0
+COL5
 $EndSCHEMATC
