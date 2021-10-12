@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Thupp-R-keyholes")(type KiCad)(uri "$(KIPRJMOD)/Thupp-R-keyholes.pretty")(options "")(descr ""))
+)
