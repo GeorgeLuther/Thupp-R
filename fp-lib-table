@@ -2,4 +2,6 @@
   (lib (name Kailh_Choc)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid.pretty/Kailh_Choc.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name .svg2shenzhen-cache)(type KiCad)(uri ${KIPRJMOD}/svg-mockups/.svg2shenzhen-cache)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name ProMicroKiCad)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad)(options "")(descr ""))
 )
